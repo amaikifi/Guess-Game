@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Cabin:ital@1&family=Edu+SA+Beginner&family=Oswald:wght@200&family=Poppins:ital,wght@0,300;1,700&display=swap');
+
+
+* {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    
+}
+
+#word { 
+    font-size: 30px;
+    margin-top: 150px;
+    
+}
+
+#checkBtn {
+    font-size: 25px;
+    border-radius: 10px 10px 10px 10px;
+    border: none;
+}
+#checkBtn:hover {
+    background-color: white;
+    color: black;
+}
+#newWordBtn {
+    font-size: 25px;
+    border-radius: 10px 10px 10px 10px;
+    border: none;
+}
+#newWordBtn:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+#input {
+    border: none;
+    border-radius: 10px;
+    height: 35px;
+    width: 35px;
+    font-size: 30px;
+    background-color: white;
+    color: black;
+}
+
+#message {
+    font-size: 35px;
+    color: red;
+}

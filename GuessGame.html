@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <link rel="stylesheet" href="GuessGame.css">
+  <title>Guess Game</title>
+</head>
+<body>
+  
+  <div>
+    <p id="word"></p>
+    <input type="text" id="input"> <br> <br>
+    <button onclick="check()" id="checkBtn">Check</button>
+    <br> <br>
+    <button onclick="newWord()" id="newWordBtn">New Word</button>
+  </div>
+  <div id="message"></div>
+  <div >score: <span id="score"></span></div>
+
+  <audio src="click-button-140881.mp3" id="audio"></audio>
+  <audio src="mouse-click-153941.mp3" id="audio2"></audio>
+</body>
+  <script src="GuessGame.js"></script>
+</html>
