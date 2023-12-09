@@ -1,4 +1,4 @@
-let words = ['banana', 'apple', 'orange', 'zoo', 'hungry'];
+let words = ['banana', 'apple', 'orange', 'zoo', 'hungry', 'purple', 'red'];
 let word = document.getElementById('word');
 let message = document.getElementById('message');
 let wordRndArray, wordRndIndex, wordRndLetter, result;
